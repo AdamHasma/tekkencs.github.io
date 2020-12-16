@@ -8,12 +8,20 @@
 	<link rel="icon" href="../img/favi.png">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="../script.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" title="nomralize" href="../css/normalize.css">
 </head>
 <body>
-<div align="center" class="verdana whitetext" style="margin-top: 15px;margin-bottom: -15px"><strong>Josie Rizal</strong></div>
+	<div class="intro">
+		<h1 class="title">TEKKEN 7</h1>
+		<p class="subtitle">Cheat Sheet</p>
+		<a id="outsidelink" href="./img/guide.jpg" target="_blank">
+			<img id="guide" src="./img/qm.png">
+		</a>
+	</div>
+<div align="center" class="subtitle-2" style="margin-top: 15px;margin-bottom: -15px">Josie Rizal</div>
 <div class="inlineblock" align="center">
 	<div class="inlineblock_left">
-		<strong>
 			<ul style="list-style:none">
 				<li><a id="outsidelink" href="http://www.tekkenzaibatsu.com/wiki/Glossary" style="background-color:rgba(118,193,201,0.4);padding:2px 5px 2px 5px;border-radius:3px">Tekken Glossary</a></li>
 				<li>SWB - b+3+4</li>
@@ -22,7 +30,6 @@
 				<li>RD - cd+3+4</li>
 				<li>RA - d/f+1+2</li>
 			</ul>
-		</strong>
 	</div>
 	<div class="inlineblock_img">
 		<a style="background-color:unset;padding:unset;" href="http://rbnorway.org/josie-t7-frames/" target="_blank"><img style="width: 100%" src="../img/josieface.png"></a>
@@ -137,7 +144,7 @@
 			<p class="gimmicks" style="margin-left: -11px">Punishing low stances</p>
 			<ul>
 				<li>u_u/f+3</li>
-			</ul>			
+			</ul>
 			<p class="gimmicks">Plus frame moves</p>
 			<ul>
 				<li>RD (<span class="greentext">+8~+10</span>)</li>
@@ -381,18 +388,18 @@
 			<p id="feng_longer">WS+2,1</p>
 			<ul>
 				<li>d+3,4 SWS 2 <span class="pinktext">FB!</span> 3+4 <span class="pinktext">S!</span> 3,f+3</li>
-			</ul>	
+			</ul>
 			<p class="gimmicks">Balcony Break Pre S!</p>
 			<p id="feng_longer"><span class="pinktext">BB!&#8206;</span></p>
 			<ul>
 				<li>3+4 <span class="pinktext">S!</span> 3,2~f cd+1,3 <span class="pinktext">W!</span> d/f+4 SWS 4</li>
 				<li>3+4 <span class="pinktext">S!</span> 3,2~f cd+1,3 <span class="pinktext">W!</span> 1 d/f+1,4,2</li>
-			</ul>				
+			</ul>
 			<p class="gimmicks">Balcony Break Post S!</p>
 			<p id="feng_longer"><span class="pinktext">BB!&#8206;</span></p>
 			<ul>
 				<li>u/f+3</li>
-			</ul>					
+			</ul>
 			<p class="gimmicks">Wall Break Pre S!</p>
 			<p id="feng_longer"><span class="pinktext">WB!&#8206;</span></p>
 			<ul>
@@ -402,12 +409,12 @@
 			<p id="feng_longer"><span class="pinktext">WB!&#8206;</span></p>
 			<ul>
 				<li>u/f+3</li>
-			</ul>			
+			</ul>
 			<p class="gimmicks">Wall combos</p>
 			<p id="feng_longer">empty</p>
 			<ul>
 				<li>empty</li>
-			</ul>	
+			</ul>
 			<p class="gimmicks">Slide Punish</p>
 			<br>
 			<ul>
@@ -433,13 +440,13 @@
 			<br>
 			<ul>
 				<li>empty</li>
-			</ul>						
+			</ul>
 			<p class="gimmicks">Backturned Opponent</p>
 			<br>
 			<ul>
 				<li>1,2,2 d/f+2 f+1+2 d+3,4 SWS~f cd+1,3 <span class="pinktext">S!</span> 3,2~f cd+1,3</li>
 			</ul>
-			<div class="sublongercombo">	
+			<div class="sublongercombo">
 				<p class="gimmicks">Wall Splat</p>
 				<p id="feng_short"><span class="pinktext">W!&#8206;</span></p>
 				<ul>
@@ -488,35 +495,35 @@
 <div class="punish" id="disqus_thread"></div>
 <script>
     /**
-     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT 
-     *  THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR 
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT
+     *  THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR
      *  PLATFORM OR CMS.
-     *  
-     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: 
+     *
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:
      *  https://disqus.com/admin/universalcode/#configuration-variables
      */
-    
+
     var disqus_config = function () {
         // Replace PAGE_URL with your page's canonical URL variable
-        this.page.url = PAGE_URL;  
-        
+        this.page.url = PAGE_URL;
+
         // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        this.page.identifier = PAGE_IDENTIFIER; 
+        this.page.identifier = PAGE_IDENTIFIER;
     };
-    
-    
+
+
     (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
         var d = document, s = d.createElement('script');
-        
+
         // IMPORTANT: Replace EXAMPLE with your forum shortname!
         s.src = 'https://tekkdb.disqus.com/embed.js';
-        
+
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
 </script>
 <noscript>
-    Please enable JavaScript to view the 
+    Please enable JavaScript to view the
     <a href="https://disqus.com/?ref_noscript" rel="nofollow">
         comments powered by Disqus.
     </a>
